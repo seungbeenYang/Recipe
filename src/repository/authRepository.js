@@ -21,6 +21,10 @@ export default{
                 "12345678"
             )
         `, [uuid, user_name, pwd]);
-        return pwd;
+        return res;
     },
+    findByUserName: async (user_name) => {
+        const rows = await conn.query(`SELECT * FROM Users WHERE User_Name = ?`, [user_name]);
+        return rows;
+    }
 }

@@ -2,6 +2,6 @@ POST localhost:4000/api/auth/signup
 Content-Type: application/json
 
 {
-  "user_name" : "12345678",
+  "user_name" : "454356757",
   "password" : "1234213745y"
 }
