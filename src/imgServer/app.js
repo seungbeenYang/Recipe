@@ -12,8 +12,8 @@ const s3 = new AWS.S3({
 });
 
 // Express 앱 생성
-const app = express();
-const port = 3000;
+//const app = express();
+//const port = 3000;
 
 // Multer S3 설정
 const upload = multer({
