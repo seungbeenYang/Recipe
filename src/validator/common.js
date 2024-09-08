@@ -14,6 +14,6 @@ export const LengthCheck = (key, value, min, max) => {
             throw new Error(`${key}는 ${min}이상 ${max}이하여야 합니다.`);
         }
     }catch(e){
-
+        throw new Error(`${key}는 ${min}이상 ${max}이하여야 합니다.`);
     }
 }
